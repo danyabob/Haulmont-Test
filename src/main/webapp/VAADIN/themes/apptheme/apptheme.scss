@@ -1,0 +1,112 @@
+@import "../valo/valo.scss";
+
+@mixin apptheme {
+  @include valo;
+
+  // Navbar
+  .header-layout {
+    background-color: #4b709c;
+    border: none;
+    padding-left: 4%;
+    padding-right: 5%;
+
+    .v-button {
+      background: transparent;
+      border: none;
+      font-weight: bold;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      color: #f7f7f7;
+      display: block;
+      font-size: 16px;
+      transition-duration: 0.4s;
+      height: 32px;
+      text-align: center;
+      outline: none;
+      border-radius: 3px;
+    }
+
+    .v-button:hover {
+      background-color: #264b78;
+    }
+
+    .v-button:after {
+      content: none;
+    }
+
+    .v-label {
+      text-align: center;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  // Views
+  .view-layout {
+    background-color: #e6e7e9;
+  }
+
+  // Windows
+  .modal-window {
+    .v-window-layout {
+      background-color: #e6e7e9;
+    }
+    .v-window-outerheader {
+      background-color: #4b74a4;
+      margin-left: -10px;
+    }
+
+    .v-window-header {
+      color: white;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .v-window-contents {
+      background-color: aliceblue;
+    }
+
+    .v-window-closebox {
+      background-color: #264b78;
+    }
+
+    .v-caption {
+      font-size: 105%;
+    }
+  }
+
+  // Filter panel
+  .v-panel {
+    .v-textfield {
+      background-color: #dfe0e3;
+    }
+
+    .v-panel-caption {
+      font-size: 16px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      color: #f7f7f7;
+      background: #4b72a0;
+      font-weight: bold;
+    }
+  }
+
+  // Grids
+  .v-grid {
+    .v-grid-tablewrapper {
+      .v-grid-header {
+        .v-grid-row {
+          .v-grid-cell {
+            font-size: 16px;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            background: #4b74a4;
+            color: #f7f7f7;
+            font-weight: bold;
+            }
+        }
+      }
+    }
+  }
+}
