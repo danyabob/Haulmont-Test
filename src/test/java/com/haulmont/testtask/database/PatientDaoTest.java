@@ -10,13 +10,10 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-/**
- * Юнит тест для проверки функциональных возможностей класса PatientDao
- *
- * @author alex
- * @version 1.0
- * @since 2019-11-16
- */
+//Юнит тест для проверки функциональных возможностей класса PatientDao
+//Шеюхин Данил Борисович
+//danya.bob@gmail.com
+
 public class PatientDaoTest {
 
     private PatientDao patientDao;
