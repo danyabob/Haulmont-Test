@@ -5,6 +5,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 //Юнит тест для проверки функциональных возможностей класса DaoFactory
+//Шеюхин Данил Борисович
+//danya.bob@gmail.com
 
 public class DaoFactoryTest {
 
